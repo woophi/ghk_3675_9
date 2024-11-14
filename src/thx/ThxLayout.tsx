@@ -20,6 +20,7 @@ export const ThxLayout = () => {
           block
           view="primary"
           href="alfabank://multistep-route?fromModule=FORM&stepNumber=0&alias=alfa-subscription-alias&version=2&source=ghzpclient"
+          onClick={() => window.gtag('event', '3675_end_v9')}
         >
           Узнать условия
         </ButtonMobile>
